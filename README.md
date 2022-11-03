@@ -1,11 +1,11 @@
 <div align="center">
   
 [![wakatime](https://wakatime.com/badge/user/e8ce1a81-0a62-4ce5-bb06-c50d3f924814/project/9269d6af-c6e2-434d-9e13-0bf48b44177f.svg)](https://wakatime.com/badge/user/e8ce1a81-0a62-4ce5-bb06-c50d3f924814/project/9269d6af-c6e2-434d-9e13-0bf48b44177f)
-  
 ![Lifecycle](https://img.shields.io/badge/lifecycle-in%20development-green)
 # Paperline
 Paperline is a commmand line tool to make lazy developers lifes easier.
-
+</div>
+  
 # Setup
 ----
 open command prompt

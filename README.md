@@ -1,3 +1,6 @@
+<div align="center">
+
+![Lifecycle](https://img.shields.io/badge/lifecycle-in%20development-green)
 # Paperline
 Paperline is a commmand line tool to make lazy developers lifes easier.
 

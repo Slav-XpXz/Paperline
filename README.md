@@ -1,5 +1,5 @@
 <div align="center">
-[![wakatime](https://wakatime.com/badge/github/Slav-XpXz/Paperline.svg)](https://wakatime.com/badge/github/Slav-XpXz/Paperline)
+[![wakatime](https://wakatime.com/badge/github/Slav-XpXz/Paperline)
 ![Lifecycle](https://img.shields.io/badge/lifecycle-in%20development-green)
 # Paperline
 Paperline is a commmand line tool to make lazy developers lifes easier.

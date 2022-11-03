@@ -1,5 +1,6 @@
 <div align="center">
-![wakatime](https://wakatime.com/badge/github/Slav-XpXz/Paperline)
+  
+[![wakatime](https://wakatime.com/badge/github/Slav-XpXz/Paperline.svg)]
   
 ![Lifecycle](https://img.shields.io/badge/lifecycle-in%20development-green)
 # Paperline

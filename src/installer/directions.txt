@@ -1,4 +1,0 @@
-open enviroment variables in control panel
-make a new path variable
-the dictionary should be where you have your folder "installer"\bin
-so like C:\Users\user1\Downloads\installer\bin

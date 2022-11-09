@@ -1,3 +1,12 @@
+/*
+Property of slav XpXz
+stealing this is skidding which is uncool
+Crediting my code in use of it is completely fine
+Any problems? Contact me:
+Discord: slav XpXz Floxka#5553
+
+*/
+/* includes */
 #include <stdio.h>
 #include <stdlib.h>
 #include "math.h"
@@ -25,6 +34,7 @@ int main(int argc, char *argv[])
 
 
     if(strcmp(argv[1], "help") == 0){
+        /* this function was called from misc.h */
         help();
     }
 
@@ -35,17 +45,21 @@ int main(int argc, char *argv[])
     if(strcmp(argv[1], "webapp") == 0){
         for(int i=1;i<argc; i++){
            system("mkdir webapp");
+           /* commands to create files */
            system("type nul > webapp//index.html");
            system("type nul > webapp//index.js");
            system("type nul > webapp//styles.css");
            FILE* fp;
            fp = fopen("webapp//index.html", "w");
+           /* Null check 😂 */
            if(fp==NULL)
            {
                 printf("Syntax Error: File doesn't exist\n");
            }
-           fputs("<html><head><title>Paperline</title></head><body>epic gamer</body></html>", fp);
+           /* puts string */
+           fputs("<html><head><title>Paperline</title></head><body>epic gamer<script='index.js'></body></html>", fp);
            fclose(fp);
+           /* The second pointer */
            FILE* fpp;
            fpp = fopen("webapp//index.js", "w");
            if(fpp==NULL)
@@ -54,10 +68,15 @@ int main(int argc, char *argv[])
            }
            fputs("alert('Paperline');", fpp);
            fclose(fpp);
-           printf("Sucess! \n");
+           printf("Sucess!\n");
         
         }
     }
+    
+    
+    /* Operations math */
+    
+    
 
     if(strcmp(argv[1], "divide") == 0){
         if(argc < 4){
@@ -66,7 +85,8 @@ int main(int argc, char *argv[])
         else{
             for(int i=2;i<argc; i++)
             {
-                z=atoi(argv[i]);
+                z=atoi(argv[i])
+                /* I gotta fix this bro */
                 div=divide(div, z);
             }
             printf("quotient is: %d\n", div);
@@ -111,4 +131,5 @@ int main(int argc, char *argv[])
             printf("sum is: %d\n", sum);
         }
     }
+    /* end of operations */
 }
